@@ -1,6 +1,6 @@
 const ListadoPacientes = () => {
   return (
-    <h2>ListadoPacientes</h2>
+    <h2 className="w-1/2 lg:w-3/5">ListadoPacientes</h2>
   )
 }
 
