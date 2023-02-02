@@ -6,7 +6,7 @@ const Formulario = () => {
       Añade Pacientes y {' '}
       <span className=" text-indigo-600 font-bold">Adeministralos</span>
      </p>
-     <form className=" bg-white shadow-md rounded-lg py-10 px-5">
+     <form className=" bg-white shadow-md rounded-lg py-10 px-5 mb-10">
       <div className="mb-5">
         <label htmlFor="mascota" className=" block text-gray-700 font-bold uppercase">Nombre de mascota</label>
         <input 
@@ -52,6 +52,12 @@ const Formulario = () => {
         >
           
         </textarea>
+
+        <input 
+          type="submit"
+          className=" bg-indigo-600 w-full p-3 text-white uppercase font-bold mt-5 hover:bg-indigo-700 cursor-pointer transition-shadow"
+          value="Agregar paciente"
+        />
       </div>
      </form>
     </div>
